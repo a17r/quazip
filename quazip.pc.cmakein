@@ -1,7 +1,7 @@
 prefix=@CMAKE_INSTALL_PREFIX@
 exec_prefix=${prefix}
 libdir=${prefix}/lib@LIB_SUFFIX@
-includedir=${prefix}/include
+includedir=${prefix}/include/quazip@QUAZIP_LIB_VERSION_SUFFIX@
 
 
 Name: Quazip
